@@ -1,0 +1,61 @@
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+
+@font-face {
+    font-family: lol;
+    src: url(vermin_vibes.ttf);
+}
+
+#title {
+    font-family: vermin vibes;
+}
+
+#cse {
+    margin-top: 300px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    font-family: 'vermin vibes';
+    letter-spacing: 20px;
+    font-size: 150px;
+
+}
+#year
+{
+    margin-left: 560px;
+}
+
+#div2
+{
+    height: 70vh;
+    filter: brightness(30%);
+}
